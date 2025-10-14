@@ -6,13 +6,27 @@ body {
     /* body */
 }
 
+/* .circle {
+    margin-top: 4em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    border-radius: 20px;
+    height: 10em;
+    width: 10em;
+    background-color: black;
+    opacity: 50%;
+    filter: blur(10px);
+} */
+
 .img_flag {
     margin-top: 4em;
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 30%;
-    /* height: 5em; */
+    box-shadow: 0 0 20px 6px rgba(0,0,0,0.5);
 }
 
 h1 {
