@@ -17,3 +17,15 @@ h1 {
 .assnatANTexte {
     margin-top: -1em;
 }
+
+.const {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 13.5pt;
+    text-align: center;
+    margin-top: 0em;
+}
+
+.article {
+    float: left;
+    margin-left: 1em;
+}
