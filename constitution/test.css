@@ -27,5 +27,12 @@ h1 {
 
 .article {
     float: left;
-    margin-left: 1em;
+    /* margin-left: 1em; */
+    font-weight: 900;
+    text-decoration-line: underline;
+}
+
+.subtitle {
+    /* margin-left: 2em; */
+    font-weight: 600;
 }
