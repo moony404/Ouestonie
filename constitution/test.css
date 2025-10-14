@@ -34,7 +34,8 @@ h1 {
 
 .title {
     font-size: 20pt;
-    text-decoration: upperline;
+    text-transform: uppercase;
+    font-weight: 700;
 }
 
 .subtitle {
