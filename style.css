@@ -13,7 +13,7 @@ body {
     display: block; /* Affiche l'image comme un bloc */
     margin-left: auto; /* Centre l'image horizontalement */
     margin-right: auto; /* Centre l'image horizontalement */
-    width: 15%; /* Largeur de l'image par rapport au conteneur */
+    width: 187pt; /* Largeur de l'image par rapport au conteneur */
     box-shadow: 0 0 200px 10px rgba(0, 0, 0, 0.2); /* Ombre portée autour de l'image */
 }
 
