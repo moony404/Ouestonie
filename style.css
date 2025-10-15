@@ -1,99 +1,110 @@
+/* Corps de la page */
 body {
-    text-align: justify;
-    font-family: 'Times New Roman';
-    font-size: 13.5pt;;
-    margin-top: 0pt;
-    text-indent: 0pt;
+    text-align: justify; /* Justifie le texte sur toute la largeur */
+    font-family: 'Times New Roman'; /* Police principale */
+    font-size: 13.5pt;; /* Taille de police par défaut */
+    margin-top: 0pt; /* Pas de marge en haut */
+    text-indent: 0pt; /* Pas d'indentation du texte */
 }
 
+/* Image du drapeau */
 .img_flag {
-    margin-top: 4em;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 15%;
-    box-shadow: 0 0 200px 10px rgba(0, 0, 0, 0.2);
+    margin-top: 4em; /* Espace au-dessus de l'image */
+    display: block; /* Affiche l'image comme un bloc */
+    margin-left: auto; /* Centre l'image horizontalement */
+    margin-right: auto; /* Centre l'image horizontalement */
+    width: 15%; /* Largeur de l'image par rapport au conteneur */
+    box-shadow: 0 0 200px 10px rgba(0, 0, 0, 0.2); /* Ombre portée autour de l'image */
 }
 
+/* Titre principal */
 h1 {
-    margin-top: 2em;
-    font-size: 50pt;
-    font-weight: 900;
-    text-align: center;
-    line-height: normal;
+    margin-top: 2em; /* Espace au-dessus du titre */
+    font-size: 50pt; /* Grande taille de police */
+    font-weight: 900; /* Texte très gras */
+    text-align: center; /* Centre le texte */
+    line-height: normal; /* Hauteur de ligne normale */
 }
 
+/* En-tête générale */
 .header {
-    margin-top: 2em;
-    text-align: center;
+    margin-top: 2em; /* Espace au-dessus de l'en-tête */
+    text-align: center; /* Centre le texte */
 }
 
+/* Ligne de séparation */
 .p_tiret {
-    margin-top: 40pt;
-    text-indent: 0pt;
-    text-align: center;
+    margin-top: 40pt; /* Espace au-dessus */
+    text-indent: 0pt; /* Pas d'indentation */
+    text-align: center; /* Centre le texte */
 }
 
+/* Titre "Gouvernement" */
 .p_gouv {
-    margin-top: 2em;
-    font-size: 26pt;
+    margin-top: 2em; /* Espace au-dessus */
+    font-size: 26pt; /* Taille de police plus grande */
 }
 
+/* Sous-titre "Constitution" */
 .p_constitution {
-    font-size: 16pt;
+    font-size: 16pt; /* Taille de police */
 }
 
+/* Mention de la copie */
 .p_copie {
-    font-size: 12pt;
+    font-size: 12pt; /* Petite taille de police */
 }
 
+/* Présentation */
 .p_presente {
-    margin-top: 4em;
-    font-size: 16pt;
+    margin-top: 4em; /* Grand espace au-dessus */
+    font-size: 16pt; /* Taille de police */
 }
 
+/* Bloc principal de la constitution */
 .div_constitution {
-    text-align: justify;
-    margin: 0 auto;
-    width: 40vw;
-    min-width: 320px;
-    max-width: 700px;
-    padding: 3em 2em;
-    background: white;
-    box-shadow: 0 0 40px 0 rgba(0,0,0,0.08);
-    border-radius: 1em;
-    /* display: flex; */
-    flex-direction: column;
-    align-items: center;
+    text-align: justify; /* Justifie le texte */
+    margin: 0 auto; /* Centre le bloc horizontalement */
+    width: 40vw; /* Largeur relative à la fenêtre */
+    min-width: 320px; /* Largeur minimale */
+    max-width: 700px; /* Largeur maximale */
+    padding: 3em 2em; /* Espace intérieur (haut/bas, gauche/droite) */
+    flex-direction: column; /* Direction des éléments enfants en colonne (utile si flex utilisé) */
+    align-items: center; /* Centre les éléments enfants (utile si flex utilisé) */
 }
 
+/* Titres de sections */
 .p_titre {
-    text-align: center;
-    font-weight: 900;
-    font-size: 32.5pt;
-    text-transform: uppercase;
+    text-align: center; /* Centre le texte */
+    font-weight: 900; /* Texte très gras */
+    font-size: 32.5pt; /* Grande taille de police */
+    text-transform: uppercase; /* Met en majuscules */
 }
 
+/* Paragraphe d'article avec retrait négatif pour alignement suspendu */
 .p_article {
-    margin-top: 12pt;
-    margin-bottom: 0pt;
-    text-indent: -2.5em;      /* Negative indent for hanging effect */
-    padding-left: 2.5em;      /* Indent all lines except the first */
-    text-align: justify;
-    line-height: normal;
-    font-family: 'Times New Roman';
-    font-size: 13.5pt;
-    float: none;              /* Remove float */
+    margin-top: 12pt; /* Espace au-dessus */
+    margin-bottom: 0pt; /* Pas d'espace en dessous */
+    text-indent: -2.5em; /* Retrait négatif pour alignement suspendu (hanging indent) */
+    padding-left: 2.5em; /* Décale tout le texte vers la droite sauf la première ligne */
+    text-align: justify; /* Justifie le texte */
+    line-height: normal; /* Hauteur de ligne normale */
+    font-family: 'Times New Roman'; /* Police */
+    font-size: 13.5pt; /* Taille de police */
+    float: none; /* Pas de flottement */
 }
 
+/* Style du numéro d'article */
 .article {
-    font-weight: bold;
+    font-weight: bold; /* Met en gras */
 }
 
+/* Date en bas à gauche */
 .p_date_gauche {
-    font-size: 12pt;
+    font-size: 12pt; /* Petite taille de police */
 }
 
+/* Date en bas à droite */
 #current_date {
-    float: right;
+    float: right; /* Aligne à droite */
 }
