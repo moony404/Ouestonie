@@ -55,3 +55,2804 @@ h1 {
 #current_date {
     float: right;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+    width: 600pt;
+    margin: 0 auto
+}
+
+.leaderZone {
+    display: block;
+    position: relative
+}
+
+.leaderZone::before {
+    position: absolute;
+    bottom: 6px;
+    display: block;
+    flex-grow: 1;
+    border-bottom: 3px dotted black;
+    width: 100%;
+    content: ''
+}
+
+.leaderText {
+    position: relative;
+    background-color: white;
+    padding-right: 2px
+}
+
+@page assnatSection1 {
+    size: 595.35pt 842pt;
+    margin: 68.05pt 73.7pt 51.05pt
+}
+
+@page assnatSection2 {
+    size: 595.35pt 842pt;
+    margin: 68.05pt 73.7pt 51.05pt
+}
+
+@page assnatSection3 {
+    size: 595.35pt 842pt;
+    margin: 68.05pt 73.7pt 51.05pt
+}
+
+@page assnatSection4 {
+    size: 595.35pt 842pt;
+    margin: 68.05pt 73.7pt 51.05pt
+}
+
+@page assnatSection5 {
+    size: 595.35pt 842pt;
+    margin: 68.05pt 73.7pt 51.05pt
+}
+
+@page assnatSection6 {
+    size: 595.35pt 842pt;
+    margin: 68.05pt 73.7pt 51.05pt
+}
+
+@page assnatSection7 {
+    size: 595.35pt 842pt;
+    margin: 68.05pt 73.7pt 51.05pt
+}
+
+@page assnatSection8 {
+    size: 595.35pt 842pt;
+    margin: 68.05pt 73.7pt 51.05pt
+}
+
+div.assnatSection1 {
+    margin: 68.05pt 73.7pt 51.05pt;
+    page: assnatSection1
+}
+
+div.assnatSection2 {
+    margin: 68.05pt 73.7pt 51.05pt;
+    page: assnatSection2
+}
+
+div.assnatSection3 {
+    margin: 68.05pt 73.7pt 51.05pt;
+    page: assnatSection3
+}
+
+div.assnatSection4 {
+    margin: 68.05pt 73.7pt 51.05pt;
+    page: assnatSection4
+}
+
+div.assnatSection5 {
+    margin: 68.05pt 73.7pt 51.05pt;
+    page: assnatSection5
+}
+
+div.assnatSection6 {
+    margin: 68.05pt 73.7pt 51.05pt;
+    page: assnatSection6
+}
+
+div.assnatSection7 {
+    margin: 68.05pt 73.7pt 51.05pt;
+    page: assnatSection7
+}
+
+div.assnatSection8 {
+    margin: 68.05pt 73.7pt 51.05pt;
+    page: assnatSection8
+}
+
+body {
+    text-align: justify;
+    font-family: 'Times New Roman';
+    font-size: 12pt
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0pt
+}
+
+li,
+table {
+    margin-top: 0pt;
+    margin-bottom: 0pt
+}
+
+h1 {
+    margin-top: 24pt;
+    margin-bottom: 0pt;
+    text-align: center;
+    page-break-inside: auto;
+    page-break-after: avoid;
+    line-height: normal;
+    font-family: Arial;
+    font-size: 12pt;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #000000
+}
+
+h2 {
+    margin-top: 24pt;
+    margin-bottom: 0pt;
+    text-align: center;
+    page-break-inside: auto;
+    page-break-after: avoid;
+    line-height: normal;
+    font-family: Arial;
+    font-size: 12pt;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #000000
+}
+
+h3 {
+    margin-top: 24pt;
+    margin-bottom: 0pt;
+    text-align: justify;
+    page-break-inside: auto;
+    page-break-after: avoid;
+    line-height: normal;
+    font-family: Arial;
+    font-size: 12pt;
+    font-weight: normal;
+    text-transform: uppercase;
+    color: #000000
+}
+
+h4 {
+    margin-top: 20pt;
+    margin-bottom: 0pt;
+    text-align: justify;
+    page-break-inside: auto;
+    page-break-after: avoid;
+    line-height: normal;
+    font-family: Arial;
+    font-size: 12pt;
+    font-weight: normal;
+    font-style: normal;
+    text-transform: none;
+    color: #000000
+}
+
+h5 {
+    margin-bottom: 0pt;
+    text-align: justify;
+    page-break-inside: auto;
+    page-break-after: avoid;
+    line-height: normal;
+    font-family: 'Times New Roman';
+    font-size: 12pt;
+    font-weight: normal;
+    font-style: italic;
+    color: #000000
+}
+
+h6 {
+    margin-bottom: 12pt;
+    text-align: center;
+    page-break-inside: auto;
+    page-break-after: auto;
+    line-height: normal;
+    font-family: Arial;
+    font-size: 12pt;
+    font-weight: bold;
+    color: #000000
+}
+
+.assnatHeading7 {
+    margin-top: 24pt;
+    margin-bottom: 0pt;
+    text-align: center;
+    page-break-inside: auto;
+    page-break-after: auto;
+    line-height: normal;
+    font-family: Arial;
+    font-size: 12pt;
+    font-weight: normal;
+    font-style: normal;
+    text-transform: uppercase;
+    color: #000000
+}
+
+.assnatHeading8 {
+    margin-top: 12pt;
+    margin-bottom: 0pt;
+    text-align: center;
+    page-break-inside: auto;
+    page-break-after: auto;
+    line-height: normal;
+    font-family: 'Times New Roman Gras';
+    font-size: 12pt;
+    font-weight: bold;
+    color: #000000
+}
+
+.assnatHeading9 {
+    margin-bottom: 0pt;
+    text-align: center;
+    page-break-inside: auto;
+    page-break-after: auto;
+    line-height: normal;
+    font-family: Arial;
+    font-size: 12.5pt;
+    font-weight: normal;
+    font-style: normal;
+    color: #000000
+}
+
+.assnat1TomeIntit0 {
+    margin-bottom: 12pt;
+    text-align: center;
+    page-break-after: avoid;
+    line-height: normal;
+    font-family: Arial;
+    font-size: 13pt;
+    font-weight: bold;
+    font-style: italic
+}
+
+.assnat1TomeNum0 {
+    margin-top: 0pt;
+    margin-bottom: 6pt;
+    text-align: center;
+    page-break-after: avoid;
+    line-height: normal;
+    font-family: Arial;
+    font-size: 13pt;
+    font-style: italic
+}
+
+.assnat2PartieIntit0 {
+    margin-bottom: 12pt;
+    text-align: center;
+    page-break-after: avoid;
+    line-height: normal;
+    font-family: 'Times New Roman Gras';
+    font-size: 14pt;
+    font-weight: bold;
+    font-style: italic
+}
+
+.assnat3LivreNum {
+    margin-bottom: 12pt;
+    text-indent: 0pt;
+    text-align: center;
+    line-height: normal;
+    font-family: 'Times New Roman';
+    font-size: 14pt;
+    font-style: italic
+}
+
+.assnat4TitreIntit0 {
+    margin-top: 0pt;
+    margin-bottom: 12pt;
+    text-indent: 0pt;
+    text-align: center;
+    page-break-after: avoid;
+    line-height: normal;
+    font-family: 'Times New Roman';
+    font-size: 14pt;
+    font-weight: bold;
+    font-style: italic;
+    text-transform: uppercase
+}
+
+.assnat4TitreNum {
+    margin-bottom: 6pt;
+    text-align: center;
+    line-height: normal;
+    font-family: 'Times New Roman';
+    font-size: 14pt;
+    font-style: italic;
+    text-transform: uppercase;
+    color: #000000
+}
+
+.assnat5ChapitreIntit0 {
+    margin-top: 0pt;
+    margin-bottom: 12pt;
+    text-indent: 0pt;
+    text-align: center;
+    page-break-after: avoid;
+    line-height: normal;
+    font-family: 'Times New Roman';
+    font-size: 14pt;
+    font-weight: bold;
+    font-style: italic
+}
+
+.assnat5ChapitreNum0 {
+    margin-top: 0pt;
+    margin-bottom: 6pt;
+    text-indent: 0pt;
+    text-align: center;
+    page-break-after: avoid;
+    font: italic small-caps normal 14pt/normal 'Times New Roman'
+}
+
+.assnat6SectionIntit0 {
+    margin-top: 0pt;
+    margin-bottom: 12pt;
+    text-indent: 0pt;
+    text-align: center;
+    page-break-after: avoid;
+    line-height: normal;
+    font-family: 'Times New Roman';
+    font-size: 14pt;
+    font-weight: bold;
+    font-style: italic
+}
+
+.assnat6SectionNum0 {
+    margin-top: 0pt;
+    margin-bottom: 6pt;
+    text-indent: 0pt;
+    text-align: center;
+    page-break-after: avoid;
+    font: italic normal normal 14pt/normal 'Times New Roman'
+}
+
+.assnat7Sous-sectionIntit0 {
+    margin-top: 0pt;
+    margin-bottom: 12pt;
+    text-indent: 0pt;
+    text-align: center;
+    page-break-after: avoid;
+    line-height: normal;
+    font-family: 'Times New Roman';
+    font-size: 14pt;
+    font-weight: normal;
+    font-style: italic
+}
+
+.assnat7Sous-sectionNum0 {
+    margin-top: 0pt;
+    margin-bottom: 6pt;
+    text-indent: 0pt;
+    text-align: center;
+    page-break-after: avoid;
+    font: italic normal normal 14pt/normal 'Times New Roman'
+}
+
+.assnat8ParagrapheIntit0 {
+    margin-top: 0pt;
+    margin-bottom: 12pt;
+    text-indent: 0pt;
+    text-align: center;
+    page-break-after: avoid;
+    line-height: normal;
+    font-family: 'Times New Roman';
+    font-size: 14pt;
+    font-weight: normal;
+    font-style: italic
+}
+
+.assnat8ParagrapheNum0 {
+    margin-top: 0pt;
+    margin-bottom: 6pt;
+    text-indent: 0pt;
+    text-align: center;
+    page-break-after: avoid;
+    font: italic normal normal 14pt/normal 'Times New Roman'
+}
+
+.assnat9ArticleNum0 {
+    margin-top: 15pt;
+    margin-bottom: 2pt;
+    text-indent: 0pt;
+    text-align: center;
+    page-break-after: avoid;
+    line-height: normal;
+    font-family: 'Times New Roman';
+    font-size: 14pt;
+    font-weight: bold;
+    font-style: italic
+}
+
+.assnatLoiTexte {
+    margin-bottom: 12pt;
+    text-indent: 25.5pt;
+    text-align: justify;
+    line-height: normal;
+    font-family: 'Times New Roman';
+    font-size: 14pt
+}
+
+.assnatMentionsousarticle {
+    margin-top: 0pt;
+    margin-bottom: 12pt;
+    text-indent: 0pt;
+    text-align: center;
+    page-break-after: avoid;
+    line-height: normal;
+    font-family: 'Times New Roman';
+    font-size: 14pt;
+    font-weight: normal;
+    font-style: italic
+}
+
+.assnatRubrique2 {
+    margin-top: 24pt;
+    margin-bottom: 6pt;
+    text-align: center;
+    line-height: normal;
+    font-family: Arial;
+    font-size: 12pt;
+    font-weight: bold
+}
+
+.assnat1TomeIntit {
+    margin-bottom: 0pt;
+    text-align: center;
+    page-break-after: avoid;
+    line-height: normal;
+    font-family: Arial;
+    font-size: 13pt;
+    font-weight: bold
+}
+
+.assnat1TomeNum {
+    margin-top: 12pt;
+    margin-bottom: 0pt;
+    text-align: center;
+    page-break-after: avoid;
+    line-height: normal;
+    font-family: Arial;
+    font-size: 13pt
+}
+
+.assnat2PartieIntit {
+    margin-bottom: 0pt;
+    text-align: center;
+    page-break-after: avoid;
+    line-height: normal;
+    font-family: 'Times New Roman Gras';
+    font-size: 14pt;
+    font-weight: bold
+}
+
+.assnat2PartieNum {
+    margin-top: 12pt;
+    margin-bottom: 0pt;
+    text-align: center;
+    page-break-after: avoid;
+    line-height: normal;
+    font-family: 'Times New Roman';
+    font-size: 14pt
+}
+
+.assnat3LivreIntit {
+    margin-bottom: 0pt;
+    text-align: center;
+    page-break-after: avoid;
+    line-height: normal;
+    font-family: 'Times New Roman Gras';
+    font-size: 14pt;
+    font-weight: bold
+}
+
+.assnat3LivreNum0 {
+    margin-top: 12pt;
+    margin-bottom: 0pt;
+    text-align: center;
+    page-break-after: avoid;
+    line-height: normal;
+    font-family: 'Times New Roman';
+    font-size: 14pt
+}
+
+.assnat4TitreIntit {
+    margin-top: 0pt;
+    margin-bottom: 0pt;
+    text-indent: 0pt;
+    text-align: center;
+    page-break-after: avoid;
+    line-height: normal;
+    font-family: 'Times New Roman';
+    font-size: 14pt;
+    font-weight: bold;
+    text-transform: uppercase
+}
+
+.assnat4TitreNum0 {
+    margin-top: 42pt;
+    margin-bottom: 12pt;
+    text-indent: 0pt;
+    text-align: center;
+    page-break-after: avoid;
+    line-height: normal;
+    font-family: 'Times New Roman';
+    font-size: 14pt;
+    text-transform: uppercase
+}
+
+.assnat5ChapitreIntit {
+    margin-top: 6pt;
+    margin-bottom: 12pt;
+    text-indent: 0pt;
+    text-align: center;
+    page-break-after: avoid;
+    line-height: normal;
+    font-family: 'Times New Roman';
+    font-size: 14pt;
+    font-weight: bold
+}
+
+.assnat5ChapitreNum {
+    margin-top: 36pt;
+    margin-bottom: 6pt;
+    text-indent: 0pt;
+    text-align: center;
+    page-break-after: avoid;
+    line-height: normal;
+    font-family: 'Times New Roman';
+    font-size: 14pt;
+    font-weight: normal;
+    font-variant: small-caps
+}
+
+.assnat6SectionIntit {
+    margin-top: 6pt;
+    margin-bottom: 12pt;
+    text-indent: 0pt;
+    text-align: center;
+    page-break-after: avoid;
+    line-height: normal;
+    font-family: 'Times New Roman';
+    font-size: 14pt;
+    font-weight: bold
+}
+
+.assnat6SectionNum {
+    margin-top: 30pt;
+    margin-bottom: 6pt;
+    text-indent: 0pt;
+    text-align: center;
+    page-break-after: avoid;
+    line-height: normal;
+    font-family: 'Times New Roman';
+    font-size: 14pt;
+    font-weight: normal;
+    font-variant: normal
+}
+
+.assnat7Sous-sectionIntit {
+    margin-top: 6pt;
+    margin-bottom: 12pt;
+    text-indent: 0pt;
+    text-align: center;
+    page-break-after: avoid;
+    line-height: normal;
+    font-family: 'Times New Roman';
+    font-size: 14pt;
+    font-weight: normal
+}
+
+.assnat7Sous-sectionNum {
+    margin-top: 24pt;
+    margin-bottom: 6pt;
+    text-indent: 0pt;
+    text-align: center;
+    page-break-after: avoid;
+    line-height: normal;
+    font-family: 'Times New Roman';
+    font-size: 14pt;
+    font-weight: normal;
+    font-variant: normal
+}
+
+.assnat8ParagrapheIntit {
+    margin-top: 6pt;
+    margin-bottom: 12pt;
+    text-indent: 0pt;
+    text-align: center;
+    page-break-after: avoid;
+    line-height: normal;
+    font-family: 'Times New Roman';
+    font-size: 14pt;
+    font-weight: normal
+}
+
+.assnat8ParagrapheNum {
+    margin-top: 24pt;
+    margin-bottom: 6pt;
+    text-indent: 0pt;
+    text-align: center;
+    page-break-after: avoid;
+    line-height: normal;
+    font-family: 'Times New Roman';
+    font-size: 14pt;
+    font-weight: normal;
+    font-variant: normal
+}
+
+.assnat9ArticleNum {
+    margin-top: 24pt;
+    margin-bottom: 12pt;
+    text-indent: 0pt;
+    text-align: center;
+    page-break-after: avoid;
+    line-height: normal;
+    font-family: 'Times New Roman';
+    font-size: 14pt;
+    font-weight: bold
+}
+
+.assnatLieu {
+    margin-bottom: 0pt;
+    text-align: left;
+    line-height: normal;
+    font-family: Calibri;
+    font-size: 12pt
+}
+
+.assnatOrgane {
+    margin-bottom: 0pt;
+    text-align: left;
+    line-height: normal;
+    font-family: 'Times New Roman';
+    font-size: 12pt;
+    font-weight: bold
+}
+
+.assnatQualitacteur {
+    margin-bottom: 0pt;
+    text-align: left;
+    line-height: normal;
+    font-family: Calibri;
+    font-size: 12pt;
+    font-style: italic
+}
+
+.assnatRunion-HeureDbut {
+    margin-top: 12pt;
+    margin-bottom: 0pt;
+    text-indent: 42.55pt;
+    text-align: justify;
+    line-height: normal;
+    widows: 0;
+    orphans: 0;
+    font-family: 'Times New Roman';
+    font-size: 12pt;
+    font-weight: bold;
+    font-style: italic
+}
+
+.assnatTextenonpastill {
+    margin-bottom: 12pt;
+    text-indent: 25.5pt;
+    text-align: justify;
+    line-height: normal;
+    font-family: 'Times New Roman';
+    font-size: 14pt
+}
+
+.assnat1 {
+    margin-bottom: 8pt;
+    text-align: left;
+    line-height: 12pt;
+    font-family: Arial;
+    font-size: 10pt
+}
+
+.assnatAN1PARTIE {
+    margin-top: 40pt;
+    margin-left: 0pt;
+    margin-bottom: 20pt;
+    text-indent: 0pt;
+    text-align: center;
+    page-break-inside: avoid;
+    page-break-after: avoid;
+    line-height: normal;
+    font-family: Arial;
+    font-size: 13.5pt;
+    font-weight: bold;
+    text-transform: uppercase
+}
+
+.assnatAN2GRANDI {
+    margin-top: 20pt;
+    margin-left: 22.7pt;
+    margin-bottom: 20pt;
+    text-indent: -14.2pt;
+    text-align: justify;
+    page-break-inside: avoid;
+    page-break-after: avoid;
+    line-height: normal;
+    font-family: Arial;
+    font-size: 12pt;
+    font-weight: bold;
+    text-transform: uppercase
+}
+
+.assnatAN2GRANDIsansnum {
+    margin-top: 20pt;
+    margin-left: 8.5pt;
+    margin-bottom: 20pt;
+    text-indent: 0pt;
+    text-align: justify;
+    page-break-inside: avoid;
+    page-break-after: avoid;
+    line-height: normal;
+    font-family: Arial;
+    font-size: 12pt;
+    font-weight: bold;
+    text-transform: uppercase
+}
+
+.assnatAN3GRANDA {
+    margin-top: 24pt;
+    margin-left: 36.85pt;
+    margin-bottom: 0pt;
+    text-indent: -19.85pt;
+    text-align: justify;
+    page-break-inside: avoid;
+    page-break-after: avoid;
+    line-height: normal;
+    font-family: Arial;
+    font-size: 12pt;
+    font-weight: bold;
+    text-transform: uppercase
+}
+
+.assnatAN4Petit1 {
+    margin-top: 20pt;
+    margin-left: 42.5pt;
+    margin-bottom: 0pt;
+    text-indent: -17pt;
+    text-align: justify;
+    page-break-inside: avoid;
+    page-break-after: avoid;
+    line-height: normal;
+    font-family: Arial;
+    font-size: 12pt;
+    font-weight: bold
+}
+
+.assnatAN5Petita {
+    margin-top: 12pt;
+    margin-left: 51pt;
+    margin-bottom: 0pt;
+    text-indent: -17pt;
+    text-align: justify;
+    page-break-inside: avoid;
+    page-break-after: avoid;
+    line-height: normal;
+    font-family: 'Times New Roman';
+    font-size: 13.5pt;
+    font-weight: bold;
+    font-style: italic
+}
+
+.assnatAN6Petiti {
+    margin-top: 12pt;
+    margin-left: 59.55pt;
+    margin-bottom: 0pt;
+    text-indent: -17pt;
+    page-break-inside: avoid;
+    page-break-after: avoid;
+    line-height: normal;
+    font-family: 'Times New Roman';
+    font-size: 13.5pt
+}
+
+.assnatAN7Puces {
+    margin-top: 12pt;
+    margin-left: 87pt;
+    margin-bottom: 0pt;
+    text-indent: -17.85pt;
+    text-align: justify;
+    page-break-inside: avoid;
+    page-break-after: avoid;
+    line-height: normal;
+    font-family: 'Times New Roman';
+    font-size: 13.5pt;
+    font-style: italic
+}
+
+.assnatANAnnexe {
+    margin-top: 8pt;
+    margin-bottom: 0pt;
+    text-indent: 42.55pt;
+    text-align: justify;
+    line-height: normal;
+    font-family: 'Times New Roman';
+    font-size: 12pt
+}
+
+.assnatANTexte {
+    margin-top: 12pt;
+    margin-bottom: 0pt;
+    text-indent: 42.55pt;
+    text-align: justify;
+    line-height: normal;
+    font-family: 'Times New Roman';
+    font-size: 13.5pt
+}
+
+.assnatAnx2GdI {
+    margin-top: 20pt;
+    margin-left: 22.7pt;
+    margin-bottom: 20pt;
+    text-indent: -14.2pt;
+    text-align: justify;
+    page-break-inside: avoid;
+    page-break-after: avoid;
+    line-height: normal;
+    font-family: Arial;
+    font-size: 12pt;
+    font-weight: bold;
+    text-transform: uppercase
+}
+
+.assnatAnx3GdA {
+    margin-top: 24pt;
+    margin-left: 36.85pt;
+    margin-bottom: 0pt;
+    text-indent: -19.85pt;
+    page-break-inside: avoid;
+    page-break-after: avoid;
+    line-height: normal;
+    font-family: Arial;
+    font-size: 12pt;
+    font-weight: bold;
+    text-transform: uppercase
+}
+
+.assnatAnx4Pt1 {
+    margin-top: 20pt;
+    margin-left: 42.5pt;
+    margin-bottom: 0pt;
+    text-indent: -17pt;
+    text-align: justify;
+    page-break-inside: avoid;
+    page-break-after: avoid;
+    line-height: normal;
+    font-family: Arial;
+    font-size: 12pt;
+    font-weight: bold
+}
+
+.assnatAnx5Pta {
+    margin-top: 12pt;
+    margin-left: 51pt;
+    margin-bottom: 0pt;
+    text-indent: -17pt;
+    text-align: justify;
+    page-break-inside: avoid;
+    page-break-after: avoid;
+    line-height: normal;
+    font-family: 'Times New Roman';
+    font-size: 13.5pt;
+    font-weight: bold;
+    font-style: italic
+}
+
+.assnatAnx6Pti {
+    margin-top: 12pt;
+    margin-left: 59.55pt;
+    margin-bottom: 0pt;
+    text-indent: -17pt;
+    text-align: justify;
+    page-break-inside: avoid;
+    page-break-after: avoid;
+    line-height: normal;
+    font-family: 'Times New Roman';
+    font-size: 13.5pt
+}
+
+.assnatBalloonText {
+    margin-bottom: 0pt;
+    text-align: justify;
+    line-height: normal;
+    font-family: Tahoma;
+    font-size: 8pt
+}
+
+.assnatBibliography {
+    margin-bottom: 0pt;
+    text-align: justify;
+    line-height: normal;
+    font-family: 'Times New Roman';
+    font-size: 12pt
+}
+
+.assnatBlockText {
+    margin-right: 57.6pt;
+    margin-left: 57.6pt;
+    margin-bottom: 0pt;
+    text-align: justify;
+    line-height: normal;
+    border: 0.75pt solid #4f81bd;
+    padding: 10pt;
+    font-family: 'Times New Roman';
+    font-size: 12pt;
+    font-style: italic;
+    color: #4f81bd
+}
+
+.assnatBodyText {
+    margin-bottom: 6pt;
+    text-align: justify;
+    line-height: normal;
+    font-family: 'Times New Roman';
+    font-size: 12pt
+}
+
+.assnatBodyText2 {
+    margin-bottom: 6pt;
+    text-align: justify;
+    line-height: 200%;
+    font-family: 'Times New Roman';
+    font-size: 12pt
+}
+
+.assnatBodyText3 {
+    margin-bottom: 6pt;
+    text-align: justify;
+    line-height: normal;
+    font-family: 'Times New Roman';
+    font-size: 8pt
+}
+
+.assnatBodyTextFirstIndent {
+    margin-bottom: 10pt;
+    text-indent: 18pt;
+    text-align: justify;
+    line-height: normal;
+    font-family: 'Times New Roman';
+    font-size: 12pt
+}
+
+.assnatBodyTextFirstIndent2 {
+    margin-left: 18pt;
+    margin-bottom: 10pt;
+    text-indent: 18pt;
+    text-align: justify;
+    line-height: normal;
+    font-family: 'Times New Roman';
+    font-size: 12pt
+}
+
+.assnatBodyTextIndent {
+    margin-left: 14.15pt;
+    margin-bottom: 6pt;
+    text-align: justify;
+    line-height: normal;
+    font-family: 'Times New Roman';
+    font-size: 12pt
+}
+
+.assnatBodyTextIndent2 {
+    margin-left: 14.15pt;
+    margin-bottom: 6pt;
+    text-align: justify;
+    line-height: 200%;
+    font-family: 'Times New Roman';
+    font-size: 12pt
+}
+
+.assnatBodyTextIndent3 {
+    margin-left: 14.15pt;
+    margin-bottom: 6pt;
+    text-align: justify;
+    line-height: normal;
+    font-family: 'Times New Roman';
+    font-size: 8pt
+}
+
+.assnatCRDATE {
+    margin-top: 10pt;
+    margin-bottom: 0pt;
+    line-height: normal;
+    font-family: Arial;
+    font-size: 18pt
+}
+
+.assnatCRHEURE {
+    margin-bottom: 0pt;
+    line-height: normal;
+    font-family: Arial;
+    font-size: 12pt
+}
+
+.assnatCRNUM {
+    margin-top: 20pt;
+    margin-bottom: 0pt;
+    line-height: normal;
+    font-family: Arial;
+    font-size: 14pt
+}
+
+.assnatCRPRESIDENT {
+    margin-top: 40pt;
+    margin-bottom: 0pt;
+    line-height: normal;
+    font-family: Arial;
+    font-size: 18pt;
+    font-weight: bold
+}
+
+.assnatCRSESSION {
+    margin-top: 55pt;
+    margin-left: 11.35pt;
+    margin-bottom: 0pt;
+    text-align: justify;
+    line-height: normal;
+    font-family: Arial;
+    font-size: 10pt;
+    font-weight: bold;
+    font-variant: small-caps;
+    color: #000000
+}
+
+.assnatCaption {
+    margin-bottom: 0pt;
+    text-align: justify;
+    line-height: normal;
+    font-family: 'Times New Roman';
+    font-size: 9pt;
+    font-weight: bold;
+    color: #4f81bd
+}
+
+.assnatCar2CarCarCar1 {
+    margin-top: 12pt;
+    margin-bottom: 0pt;
+    text-indent: 42.55pt;
+    text-align: justify;
+    line-height: normal;
+    font-family: 'Times New Roman';
+    font-size: 12pt
+}
+
+.assnatCar2CarCarCar1CarCar {
+    margin-top: 12pt;
+    margin-bottom: 0pt;
+    text-indent: 42.55pt;
+    text-align: justify;
+    line-height: normal;
+    font-family: 'Times New Roman';
+    font-size: 12pt
+}
+
+.assnatCar2CarCarCar1CarCar1 {
+    margin-top: 12pt;
+    margin-bottom: 0pt;
+    text-indent: 42.55pt;
+    text-align: justify;
+    line-height: normal;
+    font-family: 'Times New Roman';
+    font-size: 12pt
+}
+
+.assnatCar2CarCarCar11 {
+    margin-top: 12pt;
+    margin-bottom: 0pt;
+    text-indent: 42.55pt;
+    text-align: justify;
+    line-height: normal;
+    font-family: 'Times New Roman';
+    font-size: 12pt
+}
+
+.assnatClosing {
+    margin-left: 212.6pt;
+    margin-bottom: 0pt;
+    text-align: justify;
+    line-height: normal;
+    font-family: 'Times New Roman';
+    font-size: 12pt
+}
+
+.assnatCommentSubject {
+    margin-bottom: 0pt;
+    text-align: justify;
+    line-height: normal;
+    font-family: 'Times New Roman';
+    font-size: 12pt;
+    font-weight: bold
+}
+
+.assnatCommentText {
+    margin-bottom: 0pt;
+    text-align: justify;
+    line-height: normal;
+    font-family: 'Times New Roman';
+    font-size: 12pt
+}
+
+.assnatCompterendu {
+    margin-top: 12pt;
+    margin-bottom: 0pt;
+    text-indent: 42.55pt;
+    text-align: justify;
+    line-height: normal;
+    font-family: 'Times New Roman';
+    font-size: 12pt
+}
+
+.assnatDate {
+    margin-bottom: 0pt;
+    text-align: justify;
+    line-height: normal;
+    font-family: 'Times New Roman';
+    font-size: 12pt
+}
+
+.assnatDocumentMap {
+    margin-bottom: 0pt;
+    text-align: justify;
+    line-height: normal;
+    font-family: Tahoma;
+    font-size: 8pt
+}
+
+.assnatE-mailSignature {
+    margin-bottom: 0pt;
+    text-align: justify;
+    line-height: normal;
+    font-family: 'Times New Roman';
+    font-size: 12pt
+}
+
+.assnatEXA1Titre {
+    margin-top: 36pt;
+    margin-bottom: 0pt;
+    text-align: center;
+    page-break-inside: avoid;
+    page-break-after: avoid;
+    line-height: normal;
+    font-family: Arial;
+    font-size: 12pt;
+    font-weight: bold;
+    text-transform: uppercase
+}
+
+.assnatEXA3Chapitre {
+    margin-top: 24pt;
+    margin-bottom: 0pt;
+    text-align: center;
+    page-break-inside: avoid;
+    page-break-after: avoid;
+    line-height: normal;
+    font-family: 'Times New Roman';
+    font-size: 13.5pt;
+    font-variant: small-caps
+}
+
+.assnatEXA5Section {
+    margin-top: 24pt;
+    margin-bottom: 0pt;
+    text-align: center;
+    page-break-inside: avoid;
+    page-break-after: avoid;
+    line-height: normal;
+    font-family: 'Times New Roman Italique';
+    font-size: 14.5pt;
+    font-style: italic
+}
+
+.assnatEXA7Article {
+    margin-top: 24pt;
+    margin-left: 0pt;
+    margin-bottom: 0pt;
+    text-indent: 0pt;
+    text-align: center;
+    page-break-inside: avoid;
+    page-break-after: avoid;
+    line-height: normal;
+    font-family: 'Times New Roman';
+    font-size: 13.5pt;
+    font-style: italic
+}
+
+.assnatEXASousTitreArt {
+    margin-top: 12pt;
+    margin-bottom: 0pt;
+    text-indent: 0pt;
+    text-align: justify;
+    line-height: normal;
+    font-family: 'Times New Roman';
+    font-size: 13.5pt;
+    font-style: italic
+}
+
+.assnatEXAText {
+    margin-top: 12pt;
+    margin-bottom: 0pt;
+    text-indent: 42.55pt;
+    text-align: justify;
+    line-height: normal;
+    font-family: 'Times New Roman';
+    font-size: 10pt
+}
+
+.assnatEncaNoteB {
+    margin: 12pt 11.9pt 0pt 30.35pt;
+    text-indent: -18.45pt;
+    text-align: justify;
+    page-break-inside: avoid;
+    page-break-after: avoid;
+    line-height: normal;
+    border: 0.75pt solid #000000;
+    padding: 12pt;
+    font-family: 'Times New Roman';
+    font-size: 10pt
+}
+
+.assnatEncaSource {
+    margin: 3pt 11.9pt 12pt;
+    page-break-inside: avoid;
+    line-height: normal;
+    border: 0.75pt solid #000000;
+    padding: 12pt;
+    font-family: 'Times New Roman';
+    font-size: 10pt;
+    font-style: italic
+}
+
+.assnatEncaTexte {
+    margin: 6pt 11.9pt 0pt;
+    text-align: justify;
+    page-break-inside: avoid;
+    page-break-after: avoid;
+    line-height: normal;
+    border: 0.75pt solid #000000;
+    padding: 12pt;
+    font-family: 'Times New Roman';
+    font-size: 12pt
+}
+
+.assnatEncaTitre {
+    margin: 12pt 11.9pt 0pt;
+    text-align: center;
+    page-break-inside: avoid;
+    page-break-after: avoid;
+    line-height: normal;
+    border: 0.75pt solid #000000;
+    padding: 12pt;
+    font-family: 'Times New Roman';
+    font-size: 12pt;
+    font-weight: bold
+}
+
+.assnatEndnoteText {
+    margin-bottom: 0pt;
+    text-align: justify;
+    line-height: normal;
+    font-family: 'Times New Roman';
+    font-size: 12pt
+}
+
+.assnatEnvelopeAddress {
+    margin-left: 141.75pt;
+    margin-bottom: 0pt;
+    text-align: justify;
+    line-height: normal;
+    font-family: Cambria;
+    font-size: 12pt
+}
+
+.assnatEnvelopeReturn {
+    margin-bottom: 0pt;
+    text-align: justify;
+    line-height: normal;
+    font-family: Cambria;
+    font-size: 12pt
+}
+
+.assnatFooter {
+    margin-bottom: 0pt;
+    text-align: justify;
+    line-height: normal;
+    font-family: 'Times New Roman';
+    font-size: 12pt
+}
+
+.assnatFootnoteText {
+    margin-top: 3pt;
+    margin-left: 14.2pt;
+    margin-bottom: 0pt;
+    text-indent: -14.2pt;
+    text-align: justify;
+    line-height: normal;
+    font-family: 'Times New Roman';
+    font-size: 10pt;
+    font-style: italic
+}
+
+.assnatHTMLAddress {
+    margin-bottom: 0pt;
+    text-align: justify;
+    line-height: normal;
+    font-family: 'Times New Roman';
+    font-size: 12pt;
+    font-style: italic
+}
+
+.assnatHTMLPreformatted {
+    margin-bottom: 0pt;
+    text-align: justify;
+    line-height: normal;
+    font-family: Consolas;
+    font-size: 12pt
+}
+
+.assnatHeader {
+    margin-bottom: 0pt;
+    text-align: center;
+    line-height: normal;
+    font-family: 'Times New Roman';
+    font-size: 12pt
+}
+
+.assnatIndex1 {
+    margin-left: 11pt;
+    margin-bottom: 0pt;
+    text-indent: -11pt;
+    text-align: justify;
+    line-height: normal;
+    font-family: 'Times New Roman';
+    font-size: 12pt
+}
+
+.assnatIndex2 {
+    margin-left: 22pt;
+    margin-bottom: 0pt;
+    text-indent: -11pt;
+    text-align: justify;
+    line-height: normal;
+    font-family: 'Times New Roman';
+    font-size: 12pt
+}
+
+.assnatIndex3 {
+    margin-left: 33pt;
+    margin-bottom: 0pt;
+    text-indent: -11pt;
+    text-align: justify;
+    line-height: normal;
+    font-family: 'Times New Roman';
+    font-size: 12pt
+}
+
+.assnatIndex4 {
+    margin-left: 44pt;
+    margin-bottom: 0pt;
+    text-indent: -11pt;
+    text-align: justify;
+    line-height: normal;
+    font-family: 'Times New Roman';
+    font-size: 12pt
+}
+
+.assnatIndex5 {
+    margin-left: 55pt;
+    margin-bottom: 0pt;
+    text-indent: -11pt;
+    text-align: justify;
+    line-height: normal;
+    font-family: 'Times New Roman';
+    font-size: 12pt
+}
+
+.assnatIndex6 {
+    margin-left: 66pt;
+    margin-bottom: 0pt;
+    text-indent: -11pt;
+    text-align: justify;
+    line-height: normal;
+    font-family: 'Times New Roman';
+    font-size: 12pt
+}
+
+.assnatIndex7 {
+    margin-left: 77pt;
+    margin-bottom: 0pt;
+    text-indent: -11pt;
+    text-align: justify;
+    line-height: normal;
+    font-family: 'Times New Roman';
+    font-size: 12pt
+}
+
+.assnatIndex8 {
+    margin-left: 88pt;
+    margin-bottom: 0pt;
+    text-indent: -11pt;
+    text-align: justify;
+    line-height: normal;
+    font-family: 'Times New Roman';
+    font-size: 12pt
+}
+
+.assnatIndex9 {
+    margin-left: 99pt;
+    margin-bottom: 0pt;
+    text-indent: -11pt;
+    text-align: justify;
+    line-height: normal;
+    font-family: 'Times New Roman';
+    font-size: 12pt
+}
+
+.assnatIndexHeading {
+    margin-bottom: 0pt;
+    text-align: justify;
+    line-height: normal;
+    font-family: Cambria;
+    font-size: 12pt;
+    font-weight: bold
+}
+
+.assnatIntenseQuote {
+    margin: 10pt 46.8pt 14pt;
+    text-align: justify;
+    line-height: normal;
+    border-bottom: 0.75pt solid #4f81bd;
+    padding-bottom: 4pt;
+    font-family: 'Times New Roman';
+    font-size: 12pt;
+    font-weight: bold;
+    font-style: italic;
+    color: #4f81bd
+}
+
+.assnatList {
+    margin-left: 14.15pt;
+    margin-bottom: 0pt;
+    text-indent: -14.15pt;
+    text-align: justify;
+    line-height: normal;
+    font-family: 'Times New Roman';
+    font-size: 12pt
+}
+
+.assnatList2 {
+    margin-left: 28.3pt;
+    margin-bottom: 0pt;
+    text-indent: -14.15pt;
+    text-align: justify;
+    line-height: normal;
+    font-family: 'Times New Roman';
+    font-size: 12pt
+}
+
+.assnatList3 {
+    margin-left: 42.45pt;
+    margin-bottom: 0pt;
+    text-indent: -14.15pt;
+    text-align: justify;
+    line-height: normal;
+    font-family: 'Times New Roman';
+    font-size: 12pt
+}
+
+.assnatList4 {
+    margin-left: 56.6pt;
+    margin-bottom: 0pt;
+    text-indent: -14.15pt;
+    text-align: justify;
+    line-height: normal;
+    font-family: 'Times New Roman';
+    font-size: 12pt
+}
+
+.assnatList5 {
+    margin-left: 70.75pt;
+    margin-bottom: 0pt;
+    text-indent: -14.15pt;
+    text-align: justify;
+    line-height: normal;
+    font-family: 'Times New Roman';
+    font-size: 12pt
+}
+
+.assnatListBullet {
+    margin-bottom: 0pt;
+    text-align: justify;
+    line-height: normal;
+    font-family: 'Times New Roman';
+    font-size: 12pt
+}
+
+.assnatListBullet2 {
+    margin-bottom: 0pt;
+    text-align: justify;
+    line-height: normal;
+    font-family: 'Times New Roman';
+    font-size: 12pt
+}
+
+.assnatListBullet3 {
+    margin-bottom: 0pt;
+    text-align: justify;
+    line-height: normal;
+    font-family: 'Times New Roman';
+    font-size: 12pt
+}
+
+.assnatListBullet4 {
+    margin-bottom: 0pt;
+    text-align: justify;
+    line-height: normal;
+    font-family: 'Times New Roman';
+    font-size: 12pt
+}
+
+.assnatListBullet5 {
+    margin-bottom: 0pt;
+    text-align: justify;
+    line-height: normal;
+    font-family: 'Times New Roman';
+    font-size: 12pt
+}
+
+.assnatListContinue {
+    margin-left: 14.15pt;
+    margin-bottom: 6pt;
+    text-align: justify;
+    line-height: normal;
+    font-family: 'Times New Roman';
+    font-size: 12pt
+}
+
+.assnatListContinue2 {
+    margin-left: 28.3pt;
+    margin-bottom: 6pt;
+    text-align: justify;
+    line-height: normal;
+    font-family: 'Times New Roman';
+    font-size: 12pt
+}
+
+.assnatListContinue3 {
+    margin-left: 42.45pt;
+    margin-bottom: 6pt;
+    text-align: justify;
+    line-height: normal;
+    font-family: 'Times New Roman';
+    font-size: 12pt
+}
+
+.assnatListContinue4 {
+    margin-left: 56.6pt;
+    margin-bottom: 6pt;
+    text-align: justify;
+    line-height: normal;
+    font-family: 'Times New Roman';
+    font-size: 12pt
+}
+
+.assnatListContinue5 {
+    margin-left: 70.75pt;
+    margin-bottom: 6pt;
+    text-align: justify;
+    line-height: normal;
+    font-family: 'Times New Roman';
+    font-size: 12pt
+}
+
+.assnatListNumber {
+    margin-bottom: 0pt;
+    text-align: justify;
+    line-height: normal;
+    font-family: 'Times New Roman';
+    font-size: 12pt
+}
+
+.assnatListNumber2 {
+    margin-bottom: 0pt;
+    text-align: justify;
+    line-height: normal;
+    font-family: 'Times New Roman';
+    font-size: 12pt
+}
+
+.assnatListNumber3 {
+    margin-bottom: 0pt;
+    text-align: justify;
+    line-height: normal;
+    font-family: 'Times New Roman';
+    font-size: 12pt
+}
+
+.assnatListNumber4 {
+    margin-bottom: 0pt;
+    text-align: justify;
+    line-height: normal;
+    font-family: 'Times New Roman';
+    font-size: 12pt
+}
+
+.assnatListNumber5 {
+    margin-bottom: 0pt;
+    text-align: justify;
+    line-height: normal;
+    font-family: 'Times New Roman';
+    font-size: 12pt
+}
+
+.assnatListParagraph {
+    margin-left: 36pt;
+    margin-bottom: 0pt;
+    text-align: justify;
+    line-height: normal;
+    font-family: 'Times New Roman';
+    font-size: 12pt
+}
+
+.assnatMacro {
+    margin-bottom: 0pt;
+    line-height: normal;
+    font-family: Consolas;
+    font-size: 12pt
+}
+
+.assnatMessageHeader {
+    margin-bottom: 0pt;
+    text-indent: -56.7pt;
+    text-align: justify;
+    line-height: normal;
+    border: 0.75pt solid #000000;
+    padding: 1pt;
+    font-family: Cambria;
+    font-size: 12pt;
+    background-color: #cccccc
+}
+
+.assnatNOMCOMMISSION {
+    margin-bottom: 20pt;
+    text-align: right;
+    line-height: normal;
+    font-family: Arial;
+    font-size: 18pt;
+    font-weight: bold
+}
+
+.assnatNoSpacing {
+    margin-bottom: 0pt;
+    line-height: normal;
+    font-family: 'Times New Roman';
+    font-size: 12pt
+}
+
+.assnatNormalWeb {
+    margin-bottom: 0pt;
+    text-align: justify;
+    line-height: normal;
+    font-family: 'Times New Roman';
+    font-size: 12pt
+}
+
+.assnatNormalIndent {
+    margin-left: 35.4pt;
+    margin-bottom: 0pt;
+    text-align: justify;
+    line-height: normal;
+    font-family: 'Times New Roman';
+    font-size: 12pt
+}
+
+.assnatNoteHeading {
+    margin-bottom: 0pt;
+    text-align: justify;
+    line-height: normal;
+    font-family: 'Times New Roman';
+    font-size: 12pt
+}
+
+.assnatParagraphenor {
+    margin-top: 12pt;
+    margin-bottom: 0pt;
+    text-indent: 42.55pt;
+    text-align: justify;
+    line-height: normal;
+    font-family: 'Times New Roman';
+    font-size: 12pt
+}
+
+.assnatPlainText {
+    margin-bottom: 0pt;
+    text-align: justify;
+    line-height: normal;
+    font-family: Consolas;
+    font-size: 10.5pt
+}
+
+.assnatQuote {
+    margin-bottom: 0pt;
+    text-align: justify;
+    line-height: normal;
+    font-family: 'Times New Roman';
+    font-size: 12pt;
+    font-style: italic;
+    color: #000000
+}
+
+.assnatRecoText {
+    margin-top: 6pt;
+    margin-bottom: 0pt;
+    text-align: justify;
+    page-break-after: avoid;
+    line-height: normal;
+    border: 0.75pt solid #000000;
+    padding: 6pt 4pt;
+    font-family: 'Times New Roman';
+    font-size: 12pt;
+    background-color: #e6e6e6
+}
+
+.assnatRecoTitre {
+    margin-top: 12pt;
+    margin-bottom: 0pt;
+    text-align: justify;
+    page-break-after: avoid;
+    line-height: normal;
+    border: 0.75pt solid #000000;
+    padding: 6pt 4pt;
+    font-family: 'Times New Roman';
+    font-size: 12pt;
+    font-weight: bold;
+    background-color: #e6e6e6
+}
+
+.assnatRevision {
+    margin-bottom: 0pt;
+    line-height: normal;
+    font-family: 'Times New Roman';
+    font-size: 12pt
+}
+
+.assnatSOMAmend {
+    margin-top: 18pt;
+    margin-bottom: 0pt;
+    text-align: justify;
+    page-break-inside: avoid;
+    page-break-after: avoid;
+    line-height: normal;
+    font-family: 'Times New Roman';
+    font-size: 12pt;
+    font-weight: bold
+}
+
+.assnatSOMArt {
+    margin-top: 12pt;
+    margin-left: 42.55pt;
+    margin-bottom: 6pt;
+    page-break-inside: avoid;
+    page-break-after: avoid;
+    line-height: normal;
+    font-family: Arial;
+    font-size: 12pt;
+    font-style: italic
+}
+
+.assnatSOMTexte {
+    margin-top: 6pt;
+    margin-bottom: 0pt;
+    text-indent: 42.55pt;
+    text-align: justify;
+    line-height: normal;
+    font-family: 'Times New Roman';
+    font-size: 12pt
+}
+
+.assnatSOMTexte2 {
+    margin-top: 6pt;
+    margin-bottom: 6pt;
+    text-indent: 35.45pt;
+    text-align: justify;
+    line-height: normal;
+    font-family: 'Times New Roman';
+    font-size: 12pt
+}
+
+.assnatSalutation {
+    margin-bottom: 0pt;
+    text-align: justify;
+    line-height: normal;
+    font-family: 'Times New Roman';
+    font-size: 12pt
+}
+
+.assnatSignature {
+    margin-left: 212.6pt;
+    margin-bottom: 0pt;
+    text-align: justify;
+    line-height: normal;
+    font-family: 'Times New Roman';
+    font-size: 12pt
+}
+
+.assnatSommaire {
+    margin-top: 4pt;
+    margin-left: 45pt;
+    margin-bottom: 0pt;
+    line-height: normal;
+    font-family: Century;
+    font-size: 10pt
+}
+
+.assnatSubtitle {
+    margin-left: 56.7pt;
+    margin-bottom: 0pt;
+    text-align: justify;
+    line-height: normal;
+    font-family: Cambria;
+    font-size: 12pt;
+    font-style: italic;
+    letter-spacing: 0.75pt;
+    color: #4f81bd
+}
+
+.assnatTABCase {
+    margin-bottom: 0pt;
+    text-align: justify;
+    line-height: normal;
+    font-family: 'Times New Roman';
+    font-size: 10pt
+}
+
+.assnatTABNoteB {
+    margin-top: 3pt;
+    margin-left: 14.2pt;
+    margin-bottom: 0pt;
+    text-indent: -14.2pt;
+    text-align: justify;
+    line-height: normal;
+    font-family: 'Times New Roman';
+    font-size: 9pt
+}
+
+.assnatTABNoteH {
+    margin-bottom: 3pt;
+    text-align: right;
+    line-height: normal;
+    font-family: 'Times New Roman';
+    font-size: 9pt;
+    font-style: italic
+}
+
+.assnatTABSource {
+    margin-top: 3pt;
+    margin-bottom: 0pt;
+    text-align: justify;
+    line-height: normal;
+    font-family: 'Times New Roman';
+    font-size: 9pt;
+    font-style: italic
+}
+
+.assnatTABSousTitre {
+    margin-top: 3pt;
+    margin-bottom: 3pt;
+    text-align: center;
+    line-height: normal;
+    font-family: 'Times New Roman';
+    font-size: 10pt;
+    font-weight: bold
+}
+
+.assnatTABTitre {
+    margin-top: 18pt;
+    margin-bottom: 10pt;
+    text-align: center;
+    page-break-after: avoid;
+    line-height: normal;
+    font-family: 'Times New Roman';
+    font-size: 10pt;
+    font-weight: bold;
+    text-transform: uppercase
+}
+
+.assnatTC0Aprs {
+    margin-bottom: 0pt;
+    text-indent: 28.35pt;
+    text-align: justify;
+    line-height: normal;
+    font-family: 'Times New Roman';
+    font-size: 10pt
+}
+
+.assnatTCArticle {
+    margin-top: 12pt;
+    margin-bottom: 12pt;
+    text-align: center;
+    page-break-after: avoid;
+    line-height: normal;
+    font-family: 'Times New Roman';
+    font-size: 10pt
+}
+
+.assnatTCChapitre {
+    margin-top: 12pt;
+    margin-bottom: 0pt;
+    text-align: center;
+    page-break-after: avoid;
+    line-height: normal;
+    font-family: 'Times New Roman';
+    font-size: 10pt;
+    font-variant: small-caps
+}
+
+.assnatTCCode {
+    margin-bottom: 12pt;
+    text-align: center;
+    page-break-after: avoid;
+    line-height: normal;
+    font-family: 'Times New Roman';
+    font-size: 10pt;
+    font-weight: bold
+}
+
+.assnatTCEntte {
+    margin-top: 3pt;
+    margin-bottom: 3pt;
+    text-align: center;
+    line-height: normal;
+    font-family: 'Times New Roman';
+    font-size: 13.5pt;
+    font-weight: bold
+}
+
+.assnatTCEntteTC3 {
+    margin-top: 3pt;
+    margin-bottom: 3pt;
+    text-align: center;
+    line-height: normal;
+    font-family: 'Times New Roman';
+    font-size: 11pt;
+    font-weight: bold
+}
+
+.assnatTCIntChap {
+    margin-top: 3pt;
+    margin-bottom: 0pt;
+    text-align: center;
+    page-break-after: avoid;
+    line-height: normal;
+    font-family: 'Times New Roman';
+    font-size: 10pt;
+    font-weight: bold
+}
+
+.assnatTCIntSection {
+    margin-top: 3pt;
+    margin-bottom: 12pt;
+    text-align: center;
+    page-break-after: avoid;
+    line-height: normal;
+    font-family: 'Times New Roman';
+    font-size: 10pt;
+    font-weight: bold;
+    font-style: italic
+}
+
+.assnatTCIntTitre {
+    margin-top: 3pt;
+    margin-bottom: 0pt;
+    text-align: center;
+    page-break-after: avoid;
+    line-height: normal;
+    font-family: Arial;
+    font-size: 10pt;
+    font-weight: bold;
+    text-transform: uppercase
+}
+
+.assnatTCSection {
+    margin-top: 12pt;
+    margin-bottom: 0pt;
+    text-align: center;
+    page-break-after: avoid;
+    line-height: normal;
+    font-family: 'Times New Roman';
+    font-size: 10pt;
+    font-style: italic
+}
+
+.assnatTCTexte {
+    margin-bottom: 12pt;
+    text-indent: 28.35pt;
+    text-align: justify;
+    line-height: normal;
+    font-family: 'Times New Roman';
+    font-size: 10pt
+}
+
+.assnatTCTitre {
+    margin-top: 12pt;
+    margin-bottom: 0pt;
+    text-align: center;
+    page-break-after: avoid;
+    line-height: normal;
+    font-family: 'Times New Roman Gras';
+    font-size: 12pt;
+    font-weight: bold;
+    text-transform: uppercase
+}
+
+.assnatTM11 {
+    margin-right: 25.5pt;
+    margin-bottom: 0pt;
+    text-align: left;
+    line-height: normal;
+    font-family: 'Times New Roman';
+    font-size: 10pt
+}
+
+.assnatTOAHeading {
+    margin-top: 6pt;
+    margin-bottom: 0pt;
+    text-align: justify;
+    line-height: normal;
+    font-family: Cambria;
+    font-size: 12pt;
+    font-weight: bold
+}
+
+.assnatTOC1 {
+    margin-top: 12pt;
+    margin-right: 25.5pt;
+    margin-bottom: 0pt;
+    text-align: justify;
+    line-height: normal;
+    font-family: Arial;
+    font-size: 13.5pt;
+    font-weight: bold;
+    text-transform: uppercase
+}
+
+.assnatTOC2 {
+    margin: 6pt 25.5pt 0pt 14.2pt;
+    text-indent: -14.2pt;
+    text-align: justify;
+    line-height: normal;
+    font-family: Arial;
+    font-size: 12pt;
+    font-weight: bold;
+    text-transform: uppercase
+}
+
+.assnatTOC3 {
+    margin: 6pt 25.5pt 0pt 31.2pt;
+    text-indent: -17pt;
+    text-align: justify;
+    line-height: normal;
+    font-family: Arial;
+    font-size: 12pt;
+    text-transform: uppercase
+}
+
+.assnatTOC4 {
+    margin: 6pt 25.5pt 0pt 42.55pt;
+    text-indent: -14.2pt;
+    text-align: justify;
+    line-height: normal;
+    font-family: 'Times New Roman';
+    font-size: 12pt
+}
+
+.assnatTOC5 {
+    margin: 6pt 25.5pt 0pt 56.75pt;
+    text-indent: -14.2pt;
+    text-align: justify;
+    line-height: normal;
+    font-family: 'Times New Roman';
+    font-size: 11.5pt
+}
+
+.assnatTOC6 {
+    margin: 6pt 25.5pt 0pt 68.05pt;
+    text-indent: -17pt;
+    text-align: justify;
+    line-height: normal;
+    font-family: 'Times New Roman';
+    font-size: 10.5pt
+}
+
+.assnatTOC7 {
+    margin-top: 12pt;
+    margin-right: 25.5pt;
+    margin-bottom: 0pt;
+    text-align: justify;
+    line-height: normal;
+    font-family: Arial;
+    font-size: 11.5pt
+}
+
+.assnatTOC8 {
+    margin-top: 12pt;
+    margin-right: 25.5pt;
+    margin-bottom: 0pt;
+    text-align: justify;
+    line-height: normal;
+    font-family: 'Times New Roman';
+    font-size: 11.5pt;
+    font-style: italic
+}
+
+.assnatTOC9 {
+    margin: 6pt 25.5pt 0pt 28.4pt;
+    text-indent: -14.2pt;
+    text-align: justify;
+    line-height: normal;
+    font-family: 'Times New Roman';
+    font-size: 11.5pt;
+    font-style: italic
+}
+
+.assnatTOCHeading {
+    margin-top: 24pt;
+    margin-bottom: 0pt;
+    text-align: left;
+    page-break-inside: avoid;
+    page-break-after: avoid;
+    line-height: normal;
+    font-family: Cambria;
+    font-size: 14pt;
+    font-weight: bold;
+    text-transform: none;
+    color: #365f91
+}
+
+.assnatTYPEDOC {
+    margin-bottom: 10pt;
+    text-align: right;
+    line-height: normal;
+    font-family: Arial;
+    font-size: 36pt
+}
+
+.assnatTableofAuthorities {
+    margin-left: 11pt;
+    margin-bottom: 0pt;
+    text-indent: -11pt;
+    text-align: justify;
+    line-height: normal;
+    font-family: 'Times New Roman';
+    font-size: 12pt
+}
+
+.assnatTableofFigures {
+    margin-bottom: 0pt;
+    text-align: justify;
+    line-height: normal;
+    font-family: 'Times New Roman';
+    font-size: 12pt
+}
+
+.assnatTextearticle {
+    margin-top: 12pt;
+    margin-bottom: 0pt;
+    text-indent: 42.55pt;
+    text-align: justify;
+    line-height: normal;
+    font-family: 'Times New Roman';
+    font-size: 12pt
+}
+
+.assnatTitle {
+    margin-bottom: 15pt;
+    text-align: justify;
+    line-height: normal;
+    border-bottom: 1pt solid #4f81bd;
+    padding-bottom: 4pt;
+    font-family: Cambria;
+    font-size: 26pt;
+    letter-spacing: 0.25pt;
+    color: #17365d
+}
+
+.assnatTitre10 {
+    margin-top: 24pt;
+    margin-bottom: 0pt;
+    text-align: center;
+    line-height: normal;
+    font-family: 'Times New Roman';
+    font-size: 13.5pt;
+    font-style: italic
+}
+
+.assnatTitre11 {
+    margin-top: 6pt;
+    margin-bottom: 0pt;
+    text-align: center;
+    line-height: normal;
+    font-family: Arial;
+    font-size: 12.5pt;
+    font-weight: bold
+}
+
+.assnatTitre12 {
+    margin-top: 24pt;
+    margin-bottom: 0pt;
+    text-align: center;
+    line-height: normal;
+    font-family: 'Times New Roman';
+    font-size: 14pt;
+    font-style: italic
+}
+
+.assnatTitre13 {
+    margin-top: 6pt;
+    margin-bottom: 0pt;
+    text-align: center;
+    line-height: normal;
+    font-family: Arial;
+    font-size: 12.5pt;
+    font-weight: bold;
+    font-style: italic
+}
+
+.assnatassnatloitexte {
+    margin-top: 5pt;
+    margin-bottom: 5pt;
+    text-align: left;
+    line-height: normal;
+    font-family: 'Times New Roman';
+    font-size: 12pt
+}
+
+.assnatassnattitrepg {
+    margin-top: 5pt;
+    margin-bottom: 5pt;
+    text-align: left;
+    line-height: normal;
+    font-family: 'Times New Roman';
+    font-size: 12pt
+}
+
+.assnatp1 {
+    margin-bottom: 0pt;
+    text-align: left;
+    line-height: normal;
+    font-family: 'Helvetica Neue';
+    font-size: 10pt
+}
+
+.assnatsommaire0 {
+    margin-top: 50pt;
+    margin-left: 56.7pt;
+    margin-bottom: 0pt;
+    text-align: left;
+    line-height: 150%;
+    font-family: Century;
+    font-size: 10pt
+}
+
+.assnatstyleTextArgumentaire {
+    margin: 10pt;
+    text-align: left;
+    line-height: normal;
+    widows: 0;
+    orphans: 0;
+    font-family: 'Times New Roman';
+    font-size: 14pt
+}
+
+span.assnatLnom {
+    font-family: 'Times New Roman';
+    font-size: 13pt;
+    text-decoration: none;
+    text-transform: uppercase;
+    vertical-align: baseline
+}
+
+span.assnatLprnom {
+    font-family: 'Times New Roman';
+    font-size: 13pt;
+    text-decoration: none;
+    vertical-align: baseline
+}
+
+span.assnatLieuCar {
+    font-size: 12pt
+}
+
+span.assnatPastille {
+    font-size: 12pt;
+    font-weight: bold;
+    text-decoration: none;
+    vertical-align: baseline;
+    color: #000000
+}
+
+span.assnatPastilleBis {
+    font-size: 12pt;
+    font-weight: bold;
+    color: #000000
+}
+
+span.assnatQualitacteurCar {
+    font-size: 12pt;
+    font-style: italic
+}
+
+span.assnatRunion-HeureDbutCar {
+    font-family: 'Times New Roman';
+    font-size: 12pt;
+    font-weight: bold;
+    font-style: italic
+}
+
+span.assnatANTexteCar {
+    font-family: 'Times New Roman';
+    font-size: 13.5pt
+}
+
+span.assnatAdresseHTMLCar {
+    font-family: 'Times New Roman';
+    font-size: 12pt;
+    font-style: italic
+}
+
+span.assnatBookTitle {
+    font-weight: bold;
+    font-variant: small-caps;
+    letter-spacing: 0.25pt
+}
+
+span.assnatCitationCar {
+    font-family: 'Times New Roman';
+    font-size: 12pt;
+    font-style: italic;
+    color: #000000
+}
+
+span.assnatCitationintenseCar {
+    font-family: 'Times New Roman';
+    font-size: 12pt;
+    font-weight: bold;
+    font-style: italic;
+    color: #4f81bd
+}
+
+span.assnatCommentReference {
+    font-size: 8pt
+}
+
+span.assnatCommentaireCar {
+    font-family: 'Times New Roman';
+    font-size: 12pt
+}
+
+span.assnatCorpsdetexte2Car {
+    font-family: 'Times New Roman';
+    font-size: 12pt
+}
+
+span.assnatCorpsdetexte3Car {
+    font-family: 'Times New Roman';
+    font-size: 8pt
+}
+
+span.assnatCorpsdetexteCar {
+    font-family: 'Times New Roman';
+    font-size: 12pt
+}
+
+span.assnatDateCar {
+    font-family: 'Times New Roman';
+    font-size: 12pt
+}
+
+span.assnatEXASousTitreArtCar {
+    font-family: 'Times New Roman';
+    font-size: 13.5pt;
+    font-style: italic
+}
+
+span.assnatEmphasis {
+    font-style: italic
+}
+
+span.assnatEn-tteCar {
+    font-family: 'Times New Roman';
+    font-size: 12pt
+}
+
+span.assnatEn-ttedemessageCar {
+    font-family: Cambria;
+    font-size: 12pt;
+    background-color: #cccccc
+}
+
+span.assnatEndnoteReference {
+    vertical-align: super
+}
+
+span.assnatExplorateurdedocumentsCar {
+    font-family: Tahoma;
+    font-size: 8pt
+}
+
+span.assnatFollowedHyperlink {
+    text-decoration: underline;
+    color: #800080
+}
+
+span.assnatFootnoteReference,
+span.assnattitre0,
+span.assnattitre {
+    vertical-align: super
+}
+
+span.assnatFormuledepolitesseCar {
+    font-family: 'Times New Roman';
+    font-size: 12pt
+}
+
+span.assnatHTMLCite {
+    font-style: italic
+}
+
+span.assnatHTMLCode {
+    font-family: Consolas;
+    font-size: 10pt
+}
+
+span.assnatHTMLDefinition {
+    font-style: italic
+}
+
+span.assnatHTMLKeyboard {
+    font-family: Consolas;
+    font-size: 10pt
+}
+
+span.assnatHTMLSample {
+    font-family: Consolas;
+    font-size: 12pt
+}
+
+span.assnatHTMLTypewriter {
+    font-family: Consolas;
+    font-size: 10pt
+}
+
+span.assnatHTMLVariable {
+    font-style: italic
+}
+
+span.assnatHyperlink {
+    text-decoration: underline;
+    color: #0000ff
+}
+
+span.assnatIntenseEmphasis {
+    font-weight: bold;
+    font-style: italic;
+    color: #4f81bd
+}
+
+span.assnatIntenseReference {
+    font-weight: bold;
+    font-variant: small-caps;
+    text-decoration: underline;
+    letter-spacing: 0.25pt;
+    color: #c0504d
+}
+
+span.assnatLienhypertexte1 {
+    font-family: Arial;
+    font-size: 10pt;
+    text-decoration: none;
+    color: #000000
+}
+
+span.assnatNotedebasdepageCar {
+    font-family: 'Times New Roman';
+    font-size: 10pt;
+    font-style: italic
+}
+
+span.assnatNotedefinCar {
+    font-family: 'Times New Roman';
+    font-size: 12pt
+}
+
+span.assnatObjetducommentaireCar {
+    font-family: 'Times New Roman';
+    font-size: 12pt;
+    font-weight: bold
+}
+
+span.assnatPieddepageCar {
+    font-family: 'Times New Roman';
+    font-size: 12pt
+}
+
+span.assnatPlaceholderText {
+    color: #808080
+}
+
+span.assnatPrformatHTMLCar {
+    font-family: Consolas;
+    font-size: 12pt
+}
+
+span.assnatRetrait1religneCar {
+    font-family: 'Times New Roman';
+    font-size: 12pt
+}
+
+span.assnatRetraitcorpsdetexte2Car {
+    font-family: 'Times New Roman';
+    font-size: 12pt
+}
+
+span.assnatRetraitcorpsdetexte3Car {
+    font-family: 'Times New Roman';
+    font-size: 8pt
+}
+
+span.assnatRetraitcorpsdetexteCar {
+    font-family: 'Times New Roman';
+    font-size: 12pt
+}
+
+span.assnatRetraitcorpset1religCar {
+    font-family: 'Times New Roman';
+    font-size: 12pt
+}
+
+span.assnatSOMArtCar {
+    font-family: Arial;
+    font-size: 12pt;
+    font-style: italic
+}
+
+span.assnatSalutationsCar {
+    font-family: 'Times New Roman';
+    font-size: 12pt
+}
+
+span.assnatSignatureCar {
+    font-family: 'Times New Roman';
+    font-size: 12pt
+}
+
+span.assnatSignaturelectroniqueCar {
+    font-family: 'Times New Roman';
+    font-size: 12pt
+}
+
+span.assnatSommaireCar {
+    font-family: Century;
+    font-size: 10pt
+}
+
+span.assnatSous-titreCar {
+    font-family: Cambria;
+    font-size: 12pt;
+    font-style: italic;
+    letter-spacing: 0.75pt;
+    color: #4f81bd
+}
+
+span.assnatStrong {
+    font-weight: bold
+}
+
+span.assnatSubtleEmphasis {
+    font-style: italic;
+    color: #808080
+}
+
+span.assnatSubtleReference {
+    font-variant: small-caps;
+    text-decoration: underline;
+    color: #c0504d
+}
+
+span.assnatTM1Car {
+    font-family: Arial;
+    font-size: 13.5pt;
+    font-weight: bold;
+    text-transform: uppercase
+}
+
+span.assnatTM5Car {
+    font-family: 'Times New Roman';
+    font-size: 11.5pt
+}
+
+span.assnatTM6Car {
+    font-family: 'Times New Roman';
+    font-size: 10.5pt
+}
+
+span.assnatTM7Car {
+    font-family: Arial;
+    font-size: 11.5pt
+}
+
+span.assnatTextearticleCR {
+    font-family: 'Times New Roman';
+    font-size: 12pt
+}
+
+span.assnatTextearticleCar1 {
+    font-family: 'Times New Roman';
+    font-size: 12pt
+}
+
+span.assnatTextebrutCar {
+    font-family: Consolas;
+    font-size: 10.5pt
+}
+
+span.assnatTextedebullesCar {
+    font-family: Tahoma;
+    font-size: 8pt
+}
+
+span.assnatTextedemacroCar {
+    font-family: Consolas;
+    font-size: 12pt
+}
+
+span.assnatTitre1Car {
+    font-family: Arial;
+    font-size: 12pt;
+    font-weight: bold;
+    text-transform: uppercase
+}
+
+span.assnatTitre2Car {
+    font-family: Arial;
+    font-size: 12pt;
+    font-weight: bold;
+    text-transform: uppercase
+}
+
+span.assnatTitre3Car {
+    font-family: Arial;
+    font-size: 12pt;
+    text-transform: uppercase
+}
+
+span.assnatTitre4Car {
+    font-family: Arial;
+    font-size: 12pt
+}
+
+span.assnatTitre5Car {
+    font-family: 'Times New Roman';
+    font-size: 12pt;
+    font-style: italic
+}
+
+span.assnatTitre6Car {
+    font-family: Arial;
+    font-size: 12pt;
+    font-weight: bold
+}
+
+span.assnatTitre7Car {
+    font-family: Arial;
+    font-size: 12pt;
+    text-transform: uppercase
+}
+
+span.assnatTitre8Car {
+    font-family: 'Times New Roman Gras';
+    font-size: 12pt;
+    font-weight: bold
+}
+
+span.assnatTitre9Car {
+    font-family: Arial;
+    font-size: 12.5pt
+}
+
+span.assnatTitreCar {
+    font-family: Cambria;
+    font-size: 26pt;
+    letter-spacing: 0.25pt;
+    color: #17365d
+}
+
+span.assnatTitredenoteCar {
+    font-family: 'Times New Roman';
+    font-size: 12pt
+}
+
+span.assnatnumeropage {
+    font-size: 10pt
+}
+
+.assnat111111 {
+    margin-left: 18pt;
+    text-indent: -18pt
+}
+
+.assnat1ai {
+    margin-left: 18pt;
+    text-indent: -18pt
+}
+
+.assnatArticleSection {
+    margin-left: 0pt;
+    text-indent: 0pt
+}
+
+.assnatListearticles {
+    margin-left: 0pt;
+    text-indent: 0pt
+}
+
+.assnatListearticles11 {
+    margin-left: 0pt;
+    text-indent: 0pt
+}
+
+.assnatListearticles4 {
+    margin-left: 64.35pt;
+    text-indent: -18pt
+}
+
+.assnatSommaireRapport {
+    margin-left: 18pt;
+    text-indent: -18pt
+}
+
+.assnatStyleRapport {
+    margin-left: 0pt;
+    text-indent: 0pt
+}
