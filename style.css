@@ -52,7 +52,10 @@ h1 {
     font-size: 16pt;
 }
 
-
+.div_constitution {
+    text-align: justify;
+    margin: 68.05pt 73.7pt 51.05pt;
+}
 
 /* .assnatANTexte {
     margin-top: -1em;
