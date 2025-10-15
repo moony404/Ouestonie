@@ -1,3 +1,7 @@
+body {
+    text-align: justify;
+}
+
 .img_flag {
     margin-top: 4em;
     display: block;
@@ -43,6 +47,8 @@ h1 {
 
 .assnatSection3 {
     margin: 68.05pt 73.7pt 51.05pt;
+    font-family: 'Times New Roman';
+    font-size: 13.5pt;
     page: assnatSection3;
 }
 
