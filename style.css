@@ -75,6 +75,7 @@ h1 {
 
 /* Titres de sections */
 .p_titre {
+    margin-top: 80pt; /* Pas d'espace au-dessus */;
     text-align: center; /* Centre le texte */
     font-weight: 900; /* Texte très gras */
     font-size: 32.5pt; /* Grande taille de police */
