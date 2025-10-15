@@ -102,9 +102,22 @@ h1 {
 /* Date en bas à gauche */
 .p_date_gauche {
     font-size: 12pt; /* Petite taille de police */
+    margin: 0; /* Supprime la marge par défaut */
 }
 
 /* Date en bas à droite */
 #current_date {
-    float: right; /* Aligne à droite */
+    font-size: 12pt;
+    text-align: right;
+    margin: 0;
+    float: none; /* Supprime le float */
+}
+
+/* Alignement horizontal du footer */
+.footer {
+    display: flex; /* Utilise Flexbox pour aligner les enfants */
+    justify-content: space-between; /* Espace entre les deux éléments */
+    align-items: center; /* Aligne verticalement au centre */
+    width: 100%; /* Prend toute la largeur */
+    margin-top: 2em; /* Espace au-dessus du footer */
 }
