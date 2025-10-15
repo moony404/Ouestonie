@@ -54,42 +54,45 @@ h1 {
 
 .div_constitution {
     text-align: justify;
-    margin: 68.05pt 73.7pt 51.05pt;
+    margin: 0 auto;
+    width: 40vw;
+    min-width: 320px;
+    max-width: 700px;
+    padding: 3em 2em;
+    background: white;
+    box-shadow: 0 0 40px 0 rgba(0,0,0,0.08);
+    border-radius: 1em;
+    /* display: flex; */
+    flex-direction: column;
+    align-items: center;
 }
 
-/* .assnatANTexte {
-    margin-top: -1em;
-} */
-
-/* .const {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 17.5pt;
+.p_titre {
     text-align: center;
-    margin-top: 0em;
-} */
-
-/* .article {
-    float: left;
     font-weight: 900;
-    text-decoration-line: underline;
-} */
-
-/* .title {
-    font-size: 20pt;
+    font-size: 32.5pt;
     text-transform: uppercase;
-    font-weight: 700;
-} */
+}
 
-/* .subtitle {
-    font-weight: 600;
-} */
-
-/* .assnatSection3 {
-    margin: 68.05pt 73.7pt 51.05pt;
+.p_article {
+    margin-top: 12pt;
+    margin-bottom: 0pt;
+    text-indent: -2.5em;      /* Negative indent for hanging effect */
+    padding-left: 2.5em;      /* Indent all lines except the first */
+    text-align: justify;
+    line-height: normal;
     font-family: 'Times New Roman';
     font-size: 13.5pt;
-    page: assnatSection3;
-} */
+    float: none;              /* Remove float */
+}
+
+.article {
+    font-weight: bold;
+}
+
+.p_date_gauche {
+    font-size: 12pt;
+}
 
 #current_date {
     float: right;
