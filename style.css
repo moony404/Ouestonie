@@ -15,6 +15,8 @@ body {
     font-size: 13.5pt;; /* Taille de police par défaut */
     margin-top: 0pt; /* Pas de marge en haut */
     text-indent: 0pt; /* Pas d'indentation du texte */
+    background-color: var(--background);
+    color: var(--font_color);
 }
 
 /* Image du drapeau */
