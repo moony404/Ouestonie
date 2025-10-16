@@ -1,11 +1,13 @@
 :root {
-  /* light theme */
-  --background: white;
+    /* light theme */
+    --background: white;
+    --font_color: black;
 }
 
 :root[data-theme="dark"] {
-  /* dark theme */
-  --background: #1e1e1e;
+    /* dark theme */
+    --background: black;
+    --font_color: white;
 }
 
 /* Corps de la page */
@@ -20,13 +22,24 @@ body {
 }
 
 /* Image du drapeau */
-.img_flag {
+.img_flag, #button_theme {
     margin-top: 4em; /* Espace au-dessus de l'image */
     display: block; /* Affiche l'image comme un bloc */
     margin-left: auto; /* Centre l'image horizontalement */
     margin-right: auto; /* Centre l'image horizontalement */
     width: 187pt; /* Largeur de l'image par rapport au conteneur */
     box-shadow: 0 0 200px 10px rgba(0, 0, 0, 0.2); /* Ombre portée autour de l'image */
+}
+
+#button_theme {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    background: transparent;
+    padding: 0;
+    box-shadow: none;
+    outline: none;
+    color: inherit;
 }
 
 /* Titre principal */
