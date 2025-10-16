@@ -1,3 +1,13 @@
+:root {
+  /* light theme */
+  --background: white;
+}
+
+:root[data-theme="dark"] {
+  /* dark theme */
+  --background: #1e1e1e;
+}
+
 /* Corps de la page */
 body {
     text-align: justify; /* Justifie le texte sur toute la largeur */
